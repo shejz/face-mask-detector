@@ -33,6 +33,10 @@ Techniques used to create images:
 
 ## **Project structure**
 
+- **train_mask_detector.py**: Accepts our input dataset and fine-tunes **MobileNetV2** upon it to create our mask_detector.model. A training history plot.png containing accuracy/loss curves is also produced
+- **detect_mask_image.py**: Performs face mask detection in static images.
+- **detect_mask_video.py**: Using your webcam, this script applies face mask detection to every frame in the stream.
+
 ```bash
 .
 ├── dataset
