@@ -30,7 +30,7 @@ Techniques used to create images:
 5. Get image of a mask, and align it on top of the face properly. This mask will be automatically applied to the face by using the facial landmarks (namely the points along the chin and nose) to compute where the mask will be placed. The mask is then resized and rotated, placing it on the face
 6. Repeat this process for all of our input images.
 
-![](https://i.postimg.cc/TPd2zp9Q/face-steps.png)
+![]()
 
 ## **Project structure**
 
