@@ -32,6 +32,12 @@ Techniques used to create images:
 
 ![](https://i.postimg.cc/d0wRgmpX/face-steps.jpg)
 
+<img src="https://i.postimg.cc/zBMdg2XM/peace2.jpg" width="400"/>   
+<img src="https://i.postimg.cc/43fFkhS8/my-face.jpg" width="400"/>
+<img src="https://i.postimg.cc/5tsKx2cf/peace.jpg" width="400"/>/>   
+<img src="https://i.postimg.cc/LXhChFRL/peace-mask.jpg" width="400"/>
+
+
 ## **Project structure**
 
 - **train_mask_detector.py**: Accepts our input dataset and fine-tunes **MobileNetV2** upon it to create our mask_detector.model. A training history plot.png containing accuracy/loss curves is also produced
