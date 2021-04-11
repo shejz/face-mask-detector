@@ -1,6 +1,6 @@
 
 ## **Face Mask Detection** 😷
-**NOTEBOOK**:  [![Nbviewer](https://nbviewer.jupyter.org/github/shejz/face-mask-detector/blob/main/face%20mask%20detection%20v1/COVID_19_Face_Mask_Detector.ipynb)
+**NOTEBOOK**:  [![Nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/shejz/face-mask-detector/blob/main/face%20mask%20detection%20v1/COVID_19_Face_Mask_Detector.ipynb)
 
 Train a custom deep learning model to detect whether a person is or is not wearing a mask.
 
