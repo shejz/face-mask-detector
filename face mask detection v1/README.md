@@ -7,6 +7,12 @@ This dataset consists of 1,376 images belonging to two classes:
 - with_mask: 690 images
 - without_mask: 686 images
 
+### **Two-phase COVID-19 face mask detector**
+1. Detect COVID-19 face masks in images
+2. Detect face masks in real-time video streams
+
+![](https://i.postimg.cc/QM58Kwb9/Face-Mask-Detector-Steps.jpg)
+
 ### **How was our face mask dataset created?**
 - Create an artificial dataset of people wearing masks.
 
@@ -66,3 +72,4 @@ Techniques used to create images:
 
 ### **Accuracy/loss curves plot**
 Training accuracy/loss curves demonstrate high accuracy and little signs of overfitting on the data.
+
