@@ -1,5 +1,5 @@
 
-# **Face Mask Detection** 😷
+## **Face Mask Detection** 😷
 Train a custom deep learning model to detect whether a person is or is not wearing a mask.
 
 This dataset consists of 1,376 images belonging to two classes:
@@ -7,7 +7,7 @@ This dataset consists of 1,376 images belonging to two classes:
 - with_mask: 690 images
 - without_mask: 686 images
 
-## **How was our face mask dataset created?**
+### **How was our face mask dataset created?**
 - Create an artificial dataset of people wearing masks.
 
 Techniques used to create images:
@@ -36,7 +36,7 @@ Techniques used to create images:
 
 
 
-## **Project structure**
+### **Project structure**
 
 - **train_mask_detector.py**: Accepts our input dataset and fine-tunes **MobileNetV2** upon it to create our mask_detector.model. A training history plot.png containing accuracy/loss curves is also produced
 - **detect_mask_image.py**: Performs face mask detection in static images.
@@ -63,3 +63,6 @@ Techniques used to create images:
 5 directories, 10 files
 
 ```
+
+### **Accuracy/loss curves plot**
+Training accuracy/loss curves demonstrate high accuracy and little signs of overfitting on the data.
