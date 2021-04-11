@@ -1,6 +1,6 @@
 # Face Mask Detector
 
-[![Alternate Text]({image-url})]({https://cdn.kapwing.com/final_60734c316f9e1400c795c67c_962079.mp4} "Link Title")
+[![Alternate Text]({https://drive.google.com/file/d/1U2tlp1cbUuLJskyRklder6zt-SO_CTUw})]({https://drive.google.com/file/d/1bUOufeucj9dq88W-4-QUrHyq1M9iTzri} "Link Title")
 
 
 
