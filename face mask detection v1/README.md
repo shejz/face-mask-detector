@@ -23,12 +23,11 @@ Techniques used to create images:
 - Jawline
 
 **Steps**:
-1. Start with an image of a person not wearing a face mask.
-2. Apply face detection to compute the bounding box location of the face in the image
-3. Extract the face Region of Interest (ROI)
-4. Apply facial landmarks, allowing us to localize the eyes, nose, mouth, etc.
-5. Get image of a mask, and align it on top of the face properly. This mask will be automatically applied to the face by using the facial landmarks (namely the points along the chin and nose) to compute where the mask will be placed. The mask is then resized and rotated, placing it on the face
-6. Repeat this process for all of our input images.
+1. Start with an image of a person **not wearing a face mask**.
+2. Apply face detection to compute the **bounding box** location of the face in the image
+3. Extract the face Region of Interest (ROI) and apply **facial landmarks**, allowing us to localize the eyes, nose, mouth, etc.
+4. Get image of a mask, and align it on top of the face properly. This mask will be automatically applied to the face by using the facial landmarks (namely the points along the chin and nose) to compute where the mask will be placed. The mask is then resized and rotated, placing it on the face
+5. Repeat this process for all of our input images.
 
 
 
