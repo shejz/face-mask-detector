@@ -1,5 +1,7 @@
 
 ## **Face Mask Detection** 😷
+**NOTEBOOK**:  [![Nbviewer](https://nbviewer.jupyter.org/github/shejz/face-mask-detector/blob/main/face%20mask%20detection%20v1/COVID_19_Face_Mask_Detector.ipynb)
+
 Train a custom deep learning model to detect whether a person is or is not wearing a mask.
 
 This dataset consists of 1,376 images belonging to two classes:
