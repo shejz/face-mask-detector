@@ -32,8 +32,8 @@ Techniques used to create images:
 
 
 
-<img src="https://i.postimg.cc/zBMdg2XM/peace2.jpg" width="400"/>  <img src="https://i.postimg.cc/43fFkhS8/my-face.jpg" width="400"/>
-<img src="https://i.postimg.cc/5tsKx2cf/peace.jpg" width="400"/>/> <img src="https://i.postimg.cc/LXhChFRL/peace-mask.jpg" width="400"/>
+<img src="https://i.postimg.cc/zBMdg2XM/peace2.jpg" width="400"/> <img src="https://i.postimg.cc/43fFkhS8/my-face.jpg" width="400"/>
+<img src="https://i.postimg.cc/5tsKx2cf/peace.jpg" width="400"/>  <img src="https://i.postimg.cc/LXhChFRL/peace-mask.jpg" width="400"/>
 
 
 
