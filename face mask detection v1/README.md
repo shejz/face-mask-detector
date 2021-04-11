@@ -72,4 +72,5 @@ Techniques used to create images:
 
 ### **Accuracy/loss curves plot**
 Training accuracy/loss curves demonstrate high accuracy and little signs of overfitting on the data.
+![](https://i.postimg.cc/XYtNJ4w6/auroc.jpg)
 
