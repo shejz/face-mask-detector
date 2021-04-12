@@ -68,11 +68,26 @@ Techniques used to create images:
 ├── loss_accuracy_plot.png
 └── train_mask_detector.py
 
-5 directories, 10 files
-
 ```
 
 ### **Accuracy/loss curves plot**
 Training accuracy/loss curves demonstrate high accuracy and little signs of overfitting on the data.
 ![](https://i.postimg.cc/XYtNJ4w6/auroc.jpg)
+
+### **Limitations and future improvements:**
+As you can see from the results, our face mask detector is working quite well despite:
+
+1. Having limited training data
+2. The with_mask class being artificially generated.
+
+- To improve our face mask detection model further, you should gather actual images (rather than artificially generated images) of people wearing masks. While our artificial dataset worked well in this case, there’s no substitute for the real thing.
+-  Gather images of faces that may “confuse” our classifier into thinking the person is wearing a mask when in fact they are not — potential examples include shirts wrapped around faces, bandana over the mouth, etc.
+-  Consider training a dedicated two-class object detector rather than a simple image classifier.
+
+**Current method of detecting whether a person is wearing a mask or not is a two-step process**:
+
+1. Perform face detection
+2. Apply our face mask detector to each face
+
+> **The problem with this approach is that a face mask, by definition, obscures part of the face. If enough of the face is obscured, the face cannot be detected, and therefore, the face mask detector will not be applied**. To avoid this issue, you should train a two-class object detector that consists of a with_mask class and without_mask class.
 
